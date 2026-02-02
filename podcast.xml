@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Meditace v Ášrámu 2026</title>
-    <link>https://tvojejmeno.github.io/meditace-podcast/</link>
+    <link>https://kocandrle69.github.io/meditace-podcast/</link>
     <language>cs</language>
-    <itunes:author>Tvůj Nick</itunes:author>
+    <itunes:author>Jenda</itunes:author>
     <description>Meditace se sankalp a instrukcemi z ášrámu.</description>
     <itunes:image href="https://tvojejmeno.github.io/meditace-podcast/obrazek.jpg" />
 
     <item>
       <title>Meditace se sankalp a instrukcemi</title>
       <pubDate>Mon, 02 Feb 2026 08:15:00 GMT</pubDate>
-      <enclosure url="https://tvojejmeno.github.io/meditace-podcast/meditace.mp3" length="91226112" type="audio/mpeg" />
+      <enclosure url="https://kocandrle69.github.io/meditace-podcast/meditace.mp3" length="91226112" type="audio/mpeg" />
       <itunes:duration>59:31</itunes:duration>
       <guid>meditace-2026-001</guid>
     </item>
