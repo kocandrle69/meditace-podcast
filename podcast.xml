@@ -14,7 +14,7 @@
       <pubDate>Mon, 02 Feb 2026 08:00:00 GMT</pubDate>
       <enclosure url="https://kocandrle69.github.io/meditace-podcast/meditace2024.mp3" length="20671755" type="audio/mpeg" />
       <itunes:duration>14:04</itunes:duration>
-      <guid>meditace-2024-v1.1</guid>
+      <guid>meditace-2024-v2</guid>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Mon, 02 Feb 2026 08:15:00 GMT</pubDate>
       <enclosure url="https://kocandrle69.github.io/meditace-podcast/meditace2026.mp3" length="91226112" type="audio/mpeg" />
       <itunes:duration>59:31</itunes:duration>
-      <guid>meditace-2026-v2</guid>
+      <guid>meditace-2026-v3</guid>
     </item>
   </channel>
 </rss>
