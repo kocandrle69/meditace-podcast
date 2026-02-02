@@ -5,11 +5,12 @@
     <link>https://kocandrle69.github.io/meditace-podcast/</link>
     <language>cs</language>
     <itunes:author>Karauli Shankar Mahadev Dham</itunes:author>
-    <description>Meditace z asramu pro vnitrni klid.</description>
-    <itunes:image href="https://kocandrle69.github.io/meditace-podcast/Shiva.png" />
+    <description>Meditace z asramu</description>
+    <itunes:image href="https://kocandrle69.github.io/meditace-podcast/Shiva_3000.png" />
     <itunes:category text="Health &amp; Fitness">
       <itunes:category text="Mental Health" />
     </itunes:category>
+    <itunes:type>episodic</itunes:type>
 
     <item>
       <title>Hudebni meditace z roku 2024</title>
@@ -17,7 +18,7 @@
       <pubDate>Mon, 02 Feb 2026 10:00:00 GMT</pubDate>
       <enclosure url="https://kocandrle69.github.io/meditace-podcast/meditace2024.mp3" length="11083327" type="audio/mpeg" />
       <itunes:duration>14:04</itunes:duration>
-      <guid isPermaLink="false">meditace-2024-final-v10</guid>
+      <guid isPermaLink="false">meditace-2024-final-v11</guid>
     </item>
     
     <item>
@@ -25,7 +26,7 @@
       <pubDate>Mon, 02 Feb 2026 10:15:00 GMT</pubDate>
       <enclosure url="https://kocandrle69.github.io/meditace-podcast/meditace2026.mp3" length="58127899" type="audio/mpeg" />
       <itunes:duration>59:31</itunes:duration>
-      <guid isPermaLink="false">meditace-2026-final-v10</guid>
+      <guid isPermaLink="false">meditace-2026-final-v11</guid>
     </item>
   </channel>
 </rss>
