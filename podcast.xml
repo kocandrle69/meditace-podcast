@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Meditace v Ášrámu</title>
+    <title>Meditace v Asramu</title>
     <link>https://kocandrle69.github.io/meditace-podcast/</link>
     <language>cs</language>
     <itunes:author>Karauli Shankar Mahadev Dham</itunes:author>
-    <description>Meditace z ášrámu.</description>
+    <description>Meditace z asramu pro vnitrni klid.</description>
     <itunes:image href="https://kocandrle69.github.io/meditace-podcast/Shiva.png" />
+    <itunes:category text="Health &amp; Fitness">
+      <itunes:category text="Mental Health" />
+    </itunes:category>
 
     <item>
-      <title>Hudební meditace z roku 2024</title>
+      <title>Hudebni meditace z roku 2024</title>
       <itunes:image href="https://kocandrle69.github.io/meditace-podcast/Meditation.png" />
-      <pubDate>Mon, 02 Feb 2026 08:00:00 GMT</pubDate>
-      <enclosure url="https://kocandrle69.github.io/meditace-podcast/meditace2024.mp3" length="20671755" type="audio/mpeg" />
+      <pubDate>Mon, 02 Feb 2026 10:00:00 GMT</pubDate>
+      <enclosure url="https://kocandrle69.github.io/meditace-podcast/meditace2024.mp3" length="11083327" type="audio/mpeg" />
       <itunes:duration>14:04</itunes:duration>
-      <guid>meditace-2024-v1.1</guid>
+      <guid isPermaLink="false">meditace-2024-final-v10</guid>
     </item>
     
     <item>
       <title>Meditace se sankalp a instrukcemi</title>
-      <pubDate>Mon, 02 Feb 2026 08:15:00 GMT</pubDate>
-      <enclosure url="https://kocandrle69.github.io/meditace-podcast/meditace2026.mp3" length="91226112" type="audio/mpeg" />
+      <pubDate>Mon, 02 Feb 2026 10:15:00 GMT</pubDate>
+      <enclosure url="https://kocandrle69.github.io/meditace-podcast/meditace2026.mp3" length="58127899" type="audio/mpeg" />
       <itunes:duration>59:31</itunes:duration>
-      <guid>meditace-2026-v2</guid>
+      <guid isPermaLink="false">meditace-2026-final-v10</guid>
     </item>
   </channel>
 </rss>
