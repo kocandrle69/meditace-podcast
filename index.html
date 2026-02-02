@@ -18,70 +18,48 @@
         }
         .card {
             background: #1e293b;
-            padding: 2.5rem;
-            border-radius: 2rem;
-            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-            max-width: 420px;
+            padding: 2rem;
+            border-radius: 1.5rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            max-width: 400px;
             width: 90%;
         }
-        .cover {
-            width: 220px;
-            height: 220px;
-            border-radius: 1.2rem;
-            margin-bottom: 1.8rem;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-            object-fit: cover;
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 1rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
         }
-        h1 { font-size: 1.8rem; margin-bottom: 0.8rem; letter-spacing: -0.025em; }
-        p { color: #94a3b8; font-size: 1rem; line-height: 1.5; margin-bottom: 2rem; }
+        h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+        p { color: #94a3b8; font-size: 0.9rem; margin-bottom: 2rem; }
         .btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            display: block;
             background: #3b82f6;
             color: white;
             text-decoration: none;
-            padding: 1.1rem;
-            border-radius: 1rem;
-            font-weight: 600;
+            padding: 1rem;
+            border-radius: 0.75rem;
+            font-weight: bold;
             margin-bottom: 1rem;
-            transition: all 0.2s ease;
+            transition: transform 0.2s;
         }
-        .btn:hover { background: #2563eb; transform: translateY(-2px); }
-        .btn:active { transform: translateY(0); }
-        .btn-rss { background: #475569; }
-        .btn-rss:hover { background: #334155; }
-        #copy-status {
-            color: #10b981;
-            font-size: 0.85rem;
-            font-weight: 600;
-            margin-top: -0.5rem;
-            margin-bottom: 1rem;
-            height: 1.2rem;
-            visibility: hidden;
-        }
-        .footer { font-size: 0.75rem; color: #64748b; margin-top: 2rem; }
+        .btn:active { transform: scale(0.98); }
+        .btn-rss { background: #f97316; }
+        .footer { font-size: 0.7rem; color: #475569; margin-top: 2rem; }
     </style>
 </head>
 <body>
     <div class="card">
-        <img src="Shiva.png" alt="Obal podcastu" class="cover">
+        <img src="Shiva.png" alt="Meditace v Ášrámu">
         <h1>Meditace v Ášrámu</h1>
-        <p>Soukromý kanál audio meditací.<br>Pro odebírání zvolte svou platformu.</p>
+        <p>Soukromý kanál řízených meditací se Sankalpou a instrukcemi.</p>
         
-        <a href="https://podcasts.apple.com/subscribe?itunesUrl=https://kocandrle69.github.io/meditace-podcast/podcast.xml" class="btn">
-            Odebírat v Apple Podcasts
-        </a>
+        <a href="podcast://kocandrle69.github.io/meditace-podcast/podcast.xml" class="btn">Odebírat v Apple Podcasts</a>
         
-        <a href="#" class="btn btn-rss" onclick="copyRSS(event)">
-            Kopírovat RSS odkaz
-        </a>
-        <div id="copy-status">Odkaz byl zkopírován!</div>
+        <a href="https://kocandrle69.github.io/meditace-podcast/podcast.xml" class="btn btn-rss" onclick="copyRSS(event)">Kopírovat RSS odkaz</a>
         
-        <div class="footer">
-            Soukromý RSS Feed: kocandrle69<br>
-            Spravováno přes GitHub Pages
-        </div>
+        <div class="footer">Spravováno přes GitHub Pages</div>
     </div>
 
     <script>
@@ -89,9 +67,7 @@
             e.preventDefault();
             const url = "https://kocandrle69.github.io/meditace-podcast/podcast.xml";
             navigator.clipboard.writeText(url).then(() => {
-                const status = document.getElementById('copy-status');
-                status.style.visibility = 'visible';
-                setTimeout(() => { status.style.visibility = 'hidden'; }, 3000);
+                alert("RSS odkaz byl zkopírován do schránky.");
             });
         }
     </script>
