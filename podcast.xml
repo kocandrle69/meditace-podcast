@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
-  <title>Meditace v Asramu</title>
+  <title>Meditace v Ášrámu</title>
   <link>https://kocandrle69.github.io/meditace-podcast/</link>
   <language>cs</language>
   <itunes:author>Karauli Shankar Mahadev Dham</itunes:author>
-  <description>Meditace z asramu</description>
+  <description>Soukromý kanál řízených meditací se Sankalpou a instrukcemi.</description>
   <itunes:image href="https://kocandrle69.github.io/meditace-podcast/Shiva_3000.png" />
   <itunes:category text="Health &amp; Fitness">
     <itunes:category text="Mental Health" />
   </itunes:category>
   <itunes:type>episodic</itunes:type>
+  <itunes:block>yes</itunes:block>
+
+  <!-- === EPIZODY (nejnovější nahoře) === -->
+
+  <item>
+    <title>Týden 15 — Sadhana vedená gurudévem v hindštině</title>
+    <description>Řízená nedělní meditace (sadhana) — týden 15.
+
+Mantry v pořadí jak zazní — doporučujeme naučit se předem, oči budete mít zavřené:
+
+ॐ — Óm (základní vibrace, prolíná celou meditací)
+ॐ श्री गणेशाय नमः — Óm Šrí Ganéšája namah
+ॐ श्री ब्रह्म देवाय नमः — Óm Šrí Brahma Dévája namah
+ॐ नमो नारायणाय — Óm namo Nárájánája
+ॐ श्री महेश्वराय नमः — Óm Šrí Mahéšvarája namah
+ॐ नमः शिवाय — Óm namah Šivája
+
+Mantry se opakují třikrát. Při návratu se pořadí obrací.</description>
+    <enclosure url="https://kocandrle69.github.io/meditace-podcast/episodes/W15Sadhana.m4a" length="69426038" type="audio/x-m4a" />
+    <itunes:duration>01:15:17</itunes:duration>
+    <pubDate>Sun, 12 Apr 2026 06:00:00 +0200</pubDate>
+    <guid>https://kocandrle69.github.io/meditace-podcast/episodes/W15Sadhana.m4a</guid>
+    <itunes:episode>15</itunes:episode>
+  </item>
 
   <item>
     <title>Sádhana s českým komentářem – Karauli Shankar</title>
